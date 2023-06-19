@@ -1,6 +1,7 @@
 # Wyścig samochodowy
 
 ## Opis projektu
+Projekt jest prostą symulacją wyścigu samochodowego, w którym bierze udział 20 samochodów. Liczba orążeń została ustalona na 51.
 
 ## Wizualizacja
 

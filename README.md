@@ -1,11 +1,11 @@
 # SystemyOperacyjne2-Projekt
 
-hej
+## Opis projektu
 
-bb
-yyy
-dfgdgfd
+## Wizualizacja
 
-kkkkkppppppp
-projekt
-dfdf
+## Coś tam
+
+* Wątki i co reprezentują
+* Sekcje krytyczne
+

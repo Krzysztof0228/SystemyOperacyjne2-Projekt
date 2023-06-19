@@ -1,4 +1,4 @@
-# SystemyOperacyjne2-Projekt
+# Wyścig samochodowy
 
 ## Opis projektu
 
@@ -6,13 +6,16 @@
 
 ![Alt text](image.png)
 
-1. Listowanie okrążeń
+1. Listowanie okrążeń\
+Każdy samochód to inny wątek. Samochody naprzemiennie walczą o dostęp do sekcji krytycznej. Wszystkie 20 samochodów bierze udział w wyścigu, którego celem jest jak najszybsze przejechanie 51 okrążeń.
 
-2. Przejechanie wszystkich okrążeń
+2. Przejechanie wszystkich okrążeń\
+W momencie, gdy jakiś samochód przejedzie 51 okrążeń, nie będzie już walczył o dostęp do kolejki.
 
-3. Wyniki
+3. Wyniki\
+Na sam koniec przedstawione są wyniki. Widać na nich, który samochód przyjechał jako pierwszy, a który jako ostatni.
 
-## Coś tam
+## Wątki i sekcje krytyczne
 
 * Wątki i co reprezentują\
 W programie znajduje się 20 wątków, które reprezentują samochody biąrące udział w wyścigu, kążdy samochód ma przydzielony numer od 1 do 20. Wątki ścigają się o dostęp do sekcji krytycznej. Liczba udanych dostępów do sekcji krytycznej oznacza liczbę pokonanych przez dany samochód okrążęń.
